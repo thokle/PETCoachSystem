@@ -110,6 +110,7 @@
 			   click on each to execute its default action:</p>
 
 			<div id="controller-list" role="navigation">
+			<h1>This is the site of PETCoachSytem</h1>
 				<h2>Available Controllers:</h2>
 				<ul>
 					<g:each var="c" in="${grailsApplication.controllerClasses.sort { it.fullName } }">
