@@ -2,8 +2,14 @@
 <html>
 	<head>
 		<meta name="layout" content="main"/>
-		<title>Welcome to Grails</title>
+		<title>Proffessionel coach system</title>
 		<style type="text/css" media="screen">
+
+	#background{
+	background-image: url("/views/images/backgroundtest.png");
+	
+	
+	}
 			#status {
 				background-color: #eee;
 				border: .2em solid #fff;
@@ -80,7 +86,8 @@
 			}
 		</style>
 	</head>
-	<body>
+	<script type="text/javascript"></script>
+	<body id="background">
 		<a href="#page-body" class="skip"><g:message code="default.link.skip.label" default="Skip to content&hellip;"/></a>
 		<div id="status" role="complementary">
 			<h1>Application Status</h1>
@@ -106,6 +113,7 @@
 						<div id="controller-list" role="navigation">
 			<h1>This is the site of PETCoachSytem</h1>
 				<h2>Available Controllers:</h2>
+				
 				<ul>
 					<g:each var="c" in="${grailsApplication.controllerClasses.sort { it.fullName } }">
 						<li class="controller"><g:link controller="${c.logicalPropertyName}">${c.fullName}</g:link></li>
