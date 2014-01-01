@@ -10,7 +10,7 @@
         
         }
 			#status {
-				background-color: #eee;
+				background-color blue;
 				border: .2em solid #fff;
 				margin: 2em 2em 1em;
 				padding: 1em;
