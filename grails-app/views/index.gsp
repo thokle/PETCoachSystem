@@ -5,11 +5,10 @@
 		<title>Proffessionel coach system</title>
 		<style type="text/css" media="screen">
 
-	#background{
-	background-image: url("/views/images/backgroundtest.png");
-	
-	
-	}
+	.background{
+            b
+        
+        }
 			#status {
 				background-color: #eee;
 				border: .2em solid #fff;
@@ -87,7 +86,7 @@
 		</style>
 	</head>
 	<script type="text/javascript"></script>
-	<body id="background">
+        <body style="background: darkblue">
 		<a href="#page-body" class="skip"><g:message code="default.link.skip.label" default="Skip to content&hellip;"/></a>
 		<div id="status" role="complementary">
 			<h1>Application Status</h1>
