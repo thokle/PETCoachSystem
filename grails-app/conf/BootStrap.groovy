@@ -20,6 +20,7 @@ class BootStrap {
             UserRole.create adminUser, adminRole
        
         
+        
     }
     def destroy = {
     }

@@ -120,8 +120,8 @@ grails.plugin.springsecurity.userLookup.userDomainClassName = 'petcoachsystem.Us
 grails.plugin.springsecurity.userLookup.authorityJoinClassName = 'petcoachsystem.UserRole'
 grails.plugin.springsecurity.authority.className = 'petcoachsystem.Role'
 
-grails.plugin.springsecurity.rejectIfNoRule = false
-grails.plugin.springsecurity.fii.rejectPublicInvocations = true
+grails.plugin.springsecurity.rejectIfNoRule = true 
+grails.plugin.springsecurity.fii.rejectPublicInvocations = false
 
 grails.plugin.springsecurity.controllerAnnotations.staticRules = [
    '/':               ['permitAll'],

@@ -22,6 +22,8 @@ class AthleteController {
         respond athleteInstance
     }
 
+    
+   @Secured(['ROLE_ADMIN'])
     def create() {
         respond new Athlete(params)
     }
